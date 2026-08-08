@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ChatPage from "./ChatPage.jsx";
 import SearchPage from "./SearchPage.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8001";
+const API_URL = import.meta.env.VITE_API_URL || " https://tucking-yelp-uncork.ngrok-free.dev";
 const DOC_NAME = import.meta.env.VITE_DOC_NAME || "your document";
 const CUSTOMER_STORAGE_KEY = "folio_customer_id";
 
