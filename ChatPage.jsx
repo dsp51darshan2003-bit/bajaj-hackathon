@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8001";
+const API_URL = import.meta.env.VITE_API_URL || " https://tucking-yelp-uncork.ngrok-free.dev";
 const DOC_NAME = import.meta.env.VITE_DOC_NAME || "your document";
 
 const STARTER_QUESTIONS = [
